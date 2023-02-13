@@ -10,10 +10,140 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    /* debug */
+    height: 100px;
+    background-color: grey;
+    border: 2px dashed black;
+}
+
+section {
+    margin-bottom: 10px;
 }
 
 /* HEADER */
+header {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* debug */
+    background-color: aqua;
+    border: 2px dashed black;
+}
+
 
 /* MAIN */
+
+.jumbotron {
+    padding-top: 70px;
+
+    /* debug */
+    height: 600px;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+.payment-plan {
+    /* debug */
+    height: 1400px;
+    background-color: blueviolet;
+    border: 2px dashed black;
+}
+
+.payment-plan-grid {
+    /* debug */
+    background-color: chocolate;
+    border: 2px dashed black;
+    height: 900px;
+    margin-bottom: 150px;
+}
+
+.one-column-grid {
+    /* debug */
+    height: 250px;
+    background-color: yellow;
+    border: 2px dashed black;
+}
+
+.image {
+    /* debug */
+    display: inline-block;
+    width: 60%;
+    height: 400px;
+    background-color: chartreuse;
+    border: 2px dashed black;
+}
+
+.paragraph {
+    /* debug */
+    display: inline-block;
+    width: calc(40% - 5px);
+    height: 400px;
+    background-color: darkgreen;
+    border: 2px dashed black;
+}
+
+.business {
+    /* debug */
+    height: 1000px;
+    background-color: darkred;
+    border: 2px dashed black;
+}
+
+.grid {
+    /* debug */
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed black;
+}
+
+.col {
+    /* debug */
+    width: calc(100% / 3 - 30px);
+    margin: 10px;
+    height: 350px;
+    background-color: darksalmon;
+    border: 2px dashed black;
+}
+
+.users {
+    /* debug */
+    height: 250px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    border: 2px dashed black;
+}
+
+.universities {
+    display: flex;
+    width: 100%;
+    /* debug */
+    height: 500px;
+    background-color: darkseagreen;
+    border: 2px dashed black;
+}
+
+.universities-squares {
+    width: calc(100% / 3);
+    /* debug */
+    height: 500px;
+}
+
+.sec-1 {
+    /* debug */
+    background-color: ;
+}
+
 
 /* FOOTER */
