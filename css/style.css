@@ -1,8 +1,12 @@
 /* RESET */
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    color: inherit;
 }
 
 
@@ -10,7 +14,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    max-width: 1200px;
+    max-width: 2000px;
 }
 
 .container {
@@ -27,7 +31,15 @@ h2 {
 
 section {
     margin-bottom: 10px;
+    border: 2px dashed black;
 }
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
 
 /* HEADER */
 header {
@@ -129,21 +141,104 @@ header {
     display: flex;
     width: 100%;
     /* debug */
-    height: 500px;
-    background-color: darkseagreen;
     border: 2px dashed black;
 }
 
-.universities-squares {
+.universities-sections {
     width: calc(100% / 3);
-    /* debug */
-    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.sec-1 {
-    /* debug */
-    background-color: ;
+.divided {
+    height: calc(100vw / 6);
+    width: calc(100% / 2);
 }
 
+.d1 {
+    background-color: magenta;
+}
+
+.d2 {
+    background-color: gold;
+}
+
+.d3 {
+    background-color: black;
+}
+
+.d4 {
+    background-color: aqua;
+}
+
+.sec-2 {
+    /* debug */
+    background-color: darkseagreen;
+}
+
+.call-to-action {
+    display: flex;
+    /* debug */
+    height: 300px;
+
+}
+
+.big-as-other-titles {
+    /* debug */
+    width: 50%;
+    height: 300px;
+    background-color: darkkhaki;
+}
+
+.button {
+    /* debug */
+    width: 50%;
+    height: 300px;
+    background-color: darkslategrey;
+}
+
+.faq {
+    /* debug */
+    height: 400px;
+}
+
+.qa {
+    /* debug */
+    background-color: firebrick;
+    height: 300px;
+}
 
 /* FOOTER */
+footer {
+    height: 500px;
+    color: white;
+
+    /* debug */
+    background-color: black;
+}
+
+.footer-grid {
+    display: flex;
+
+    /* debug */
+    padding: 50px 0;
+}
+
+.columns {
+    /* debug */
+    height: 250px;
+    background-color: pink;
+    margin-right: 10px;
+    width: calc(100% / 5);
+}
+
+.language {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* debug */
+    height: 1.2rem;
+    width: 70px;
+    background-color: burlywood;
+    padding: ;
+}
