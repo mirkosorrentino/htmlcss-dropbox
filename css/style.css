@@ -3,6 +3,15 @@
 :root {
     --jumbo-color: #B4D0E7;
     --gray-paragraph: #6A7372;
+    --designit-logo-color: #A2D39B;
+    --designit-logo-border-color: #D1E9CD;
+    --arizon-s-uni-color: #61082B;
+    --florida-color: #0093CE;
+    --topps-color: #FF1C1C;
+    --world-bicycle-relief-color: #D5001F;
+    --lonely-planet-color: #0D2481;
+    --hearst-color: #B4D0E7;
+    --clear-channel-color: #FFD830;
 }
 
 /* RESET */
@@ -220,8 +229,6 @@ h1 {
     margin-bottom: 150px;
 }
 
-
-
 .payment-col {
     width: calc(100%/3 - 2rem);
     border: 1px solid black;
@@ -329,8 +336,6 @@ ul.plans-list:last-child {
 .universities {
     display: flex;
     width: 100%;
-    /* debug */
-    border: 2px dashed black;
 }
 
 .universities-sections {
@@ -342,27 +347,59 @@ ul.plans-list:last-child {
 .divided {
     height: calc(100vw / 6);
     width: calc(100% / 2);
+    position: relative;
 }
 
-.d1 {
-    background-color: magenta;
+.logos {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
-.d2 {
-    background-color: gold;
+.designit {
+    background-color: var(--designit-logo-color);
+    border: 15px solid var(--designit-logo-border-color);
 }
 
-.d3 {
-    background-color: black;
+.asu {
+    background-color: var(--arizon-s-uni-color);
 }
 
-.d4 {
-    background-color: aqua;
+.florida {
+    background-color: var(--florida-color);
+}
+
+.topps {
+    background-color: var(--topps-color);
+}
+
+.world-bicycle {
+    background-color: var(--world-bicycle-relief-color);
+}
+
+.hearst {
+    background-color: var(--hearst-color);
+}
+
+.lonely-planet {
+    background-color: var(--lonely-planet-color);
+}
+
+.clear-channel {
+    background-color: var(--clear-channel-color);
 }
 
 .sec-2 {
+    height: calc(100vw / 3);
     /* debug */
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
+}
+
+.designit-logo {
+    width: 40%;
 }
 
 .call-to-action {
