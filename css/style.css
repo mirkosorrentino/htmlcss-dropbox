@@ -40,8 +40,11 @@ body {
 h2 {
     /* debug */
     height: 100px;
-    background-color: grey;
     border: 2px dashed black;
+}
+
+.buy-now {
+    text-decoration: underline;
 }
 
 section {
@@ -70,10 +73,7 @@ header {
     left: 0;
     display: flex;
     background-color: white;
-
-    /* debug
-    background-color: aqua;
-    border: 2px dashed black; */
+    z-index: 999;
 }
 
 .logo {
@@ -128,8 +128,18 @@ ul.contacts-login-list li {
 
 /* UTILITIES */
 
-/* MAIN */
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
 
+.paragraph {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+/* MAIN */
+/* jumbotron */
 .jumbotron {
     padding-top: 7rem;
     background-color: var(--jumbo-color);
@@ -144,8 +154,14 @@ ul.contacts-login-list li {
 }
 
 .jumbo-paragraph {
-    font-size: 0.8rem;
     margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    width: 65%;
+    text-align: justify;
 }
 
 .delete {
@@ -160,12 +176,6 @@ ul.contacts-login-list li {
     margin-bottom: 1rem;
 }
 
-h1 {
-    font-size: 3.5rem;
-    width: 65%;
-    text-align: justify;
-    margin-bottom: 2rem;
-}
 
 .col-25 {
     width: 25%;
@@ -190,19 +200,69 @@ h1 {
     left: 0;
 }
 
+/* payment plan */
 .payment-plan {
+    margin-top: 7rem;
+
     /* debug */
     height: 1400px;
-    background-color: blueviolet;
     border: 2px dashed black;
 }
 
 .payment-plan-grid {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
     /* debug */
-    background-color: chocolate;
     border: 2px dashed black;
     height: 900px;
     margin-bottom: 150px;
+}
+
+
+
+.payment-col {
+    width: calc(100%/3 - 2rem);
+    border: 1px solid black;
+
+    /* debug */
+    height: 900px;
+}
+
+.line-list {
+    display: inline;
+}
+
+h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.price {
+    margin-bottom: 0.6rem;
+}
+
+.monthly {
+    margin-bottom: 2rem;
+}
+
+.middle {
+    margin: 0 1rem;
+}
+
+.who {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+ul.plans-list li {
+    margin-top: 0.8rem;
+}
+
+ul.plans-list:last-child {
+    margin-bottom: 1.2rem;
 }
 
 .one-column-grid {
@@ -210,6 +270,10 @@ h1 {
     height: 250px;
     background-color: yellow;
     border: 2px dashed black;
+}
+
+.gratis {
+    text-align: center;
 }
 
 .image {
@@ -221,7 +285,7 @@ h1 {
     border: 2px dashed black;
 }
 
-.paragraph {
+.paragraph1 {
     /* debug */
     display: inline-block;
     width: calc(40% - 5px);
