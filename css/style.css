@@ -104,57 +104,6 @@ header {
     gap: 1rem;
 }
 
-
-/* .logo {
-    width: 10%;
-    position: relative;
-} */
-
-/* .dropbox-logo {
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
-/* .explain {
-    width: calc(20% + 45%);
-    font-size: 0.8rem;
-    align-items: center;
-    margin-left: 20px;
-} */
-
-/* .explain-list {
-    display: flex;
-    width: 30%;
-} */
-
-/* ul.explain-list li {
-    line-height: 70px;
-} */
-
-/* .contacts-login {
-    font-size: 0.8rem;
-    width: 25%;
-    display: flex;
-} */
-
-
-/* .contacts-login-list {
-    width: 100%;
-} */
-
-/* ul.contacts-login-list li {
-    align-items: center;
-} */
-
-/* .begin {
-    color: white;
-    background-color: blue;
-    padding: 5px 10px;
-} */
-
 /* UTILITIES */
 
 h2 {
@@ -176,9 +125,6 @@ h2 {
 .jumbotron {
     padding-top: 7rem;
     background-color: var(--jumbo-color);
-
-    /* debug */
-    border: 2px dashed black;
 }
 
 .jumbotron-content {
