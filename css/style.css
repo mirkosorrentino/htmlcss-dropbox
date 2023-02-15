@@ -169,6 +169,8 @@ h1 {
     background-color: blue;
     padding: 5px 10px;
     margin-bottom: 1rem;
+    font-size: 0.8rem;
+    text-decoration: none;
 }
 
 .col-75 {
@@ -259,20 +261,22 @@ ul.plans-list:last-child {
 
 .image {
     /* debug */
-    display: inline-block;
     width: 60%;
-    height: 400px;
-    background-color: chartreuse;
-    border: 2px dashed black;
+    /* height: 400px; */
+    /* background-color: chartreuse; */
+    /* border: 2px dashed black; */
 }
 
 .paragraph1 {
-    /* debug */
-    display: inline-block;
-    width: calc(40% - 5px);
-    height: 400px;
-    background-color: darkgreen;
-    border: 2px dashed black;
+    width: 40%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.button-white {
+    border: 1px solid black;
+    margin-top: 1rem;
+    font-size: 0.8rem;
 }
 
 .grid {
