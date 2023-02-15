@@ -13,6 +13,7 @@
     --hearst-color: #B4D0E7;
     --clear-channel-color: #FFD830;
     --call-to-action-title: #642552;
+    --button-color: #0061FF;
 }
 
 /* RESET */
@@ -64,8 +65,11 @@ body {
 }
 
 .button {
-    background-color: blue;
+    display: inline-block;
+    background-color: var(--button-color);
     padding: 0 10px;
+    line-height: normal;
+    color: white;
 }
 
 /* HEADER */
@@ -137,10 +141,8 @@ h2 {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
-    width: 65%;
-    text-align: justify;
 }
 
 .delete {
@@ -365,6 +367,7 @@ ul.plans-list:last-child {
 .sec-2 {
     height: calc(100vw / 3);
     padding: 1%;
+    overflow-y: scroll;
 }
 
 .designit-logo {
@@ -395,12 +398,26 @@ ul.plans-list:last-child {
 .faq {
     /* debug */
     height: 400px;
+
 }
 
 .qa {
-    /* debug */
-    background-color: firebrick;
-    height: 300px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.question {
+    position: relative;
+}
+
+.question-hr {
+    margin: 2rem 0;
+}
+
+.angle-down {
+    position: absolute;
+    right: 30px;
+    top: 40px;
 }
 
 /* FOOTER */
