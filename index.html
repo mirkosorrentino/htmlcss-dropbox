@@ -23,9 +23,9 @@
                 <a href=""><img src="img/logo-small.png" alt="Dropbox logo" class="dropbox-logo"></a>
                 <nav class="explain">
                     <ul class="header-list list">
-                        <li><a href="">Perché Dropbox</a></li>
-                        <li><a href="">Funzioni</a></li>
-                        <li><a href="">Piani e Prezzi</a></li>
+                        <li class="line-height"><a href="">Perché Dropbox</a></li>
+                        <li class="line-height"><a href="">Funzioni</a></li>
+                        <li class="line-height"><a href="">Piani e Prezzi</a></li>
                     </ul>
                 </nav>
             </div>
@@ -33,10 +33,10 @@
             <div class="second-nav">
                 <nav class="contacts-login">
                     <ul class="header-list second-list">
-                        <li><a href="">Supporto</a></li>
-                        <li><a href="">Contatta l'ufficio vendite</a></li>
-                        <li><a href="">Accedi</a></li>
-                        <li class="button"><a href="">Inizia</a></li>
+                        <li class="line-height"><a href="">Supporto</a></li>
+                        <li class="line-height"><a href="">Contatta l'ufficio vendite</a></li>
+                        <li class="line-height"><a href="">Accedi</a></li>
+                        <li class="button header-button"><a href="">Inizia</a></li>
                     </ul>
                 </nav>
             </div>
@@ -66,51 +66,152 @@
 
         <!-- payment plan -->
         <section class="payment-plan">
-                <div class="container">
-                <h2>Trova il piano business che fa per te</h2>
+            <div class="container">
+                <h2 class="payment-title">Trova il piano business che fa per te</h2>
                 <div class="billing">
-                    <span><input type="radio">Fatturazione mensile</span>
-                    <span><input type="radio">Fatturazione annuale</span>
+                    <input type="radio" class="radio"> <span class="paragraph">Fatturazione mensile</span>
+                    <input type="radio" class="radio2"> <span class="paragraph">Fatturazione annuale</span>
                 </div>
-               <div class="payment-plan-grid">
-                    <div class="payment-col">
-                        <div class="who">
-                            <span class="paragraph"><i class="fa-solid fa-user"></i> Singolo</span>
+                <div class="payment-grid flex">
+                    <!-- first card -->
+                    <div class="payment-cols">
+                        <div class="col-header paragraph">
+                            <span>
+                                <i class="fa-solid fa-user"></i>
+                                Singolo
+                            </span>
                         </div>
-                        <div class="main-grid">
-                            <h5 class="kind">Professional</h5>
-                            <div class="price"><strong>€ 12.00</strong></div>
-                            <div class="paragraph monthly">/mese</div>
-                            <ul class="plans-list">
-                                <li>
-                                    <i class="fa-solid fa-user symbol-list"></i>
-                                    <div class="line-list paragraph">1 utente</div>
+                        <div class="payment-card-content">
+                            <h5>Professional</h5>
+                            <div class="price paragraph">€ 12.00</div>
+                            <div class="period paragraph">/mese</div>
+                            <ul>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-user list-type"></i>
+                                    <p class="paragraph">1 utente</p>
                                 </li>
-                                <li>
-                                    <i class="fa-solid fa-folder symbol-list"></i>
-                                    <div class="line-list paragraph">5 TB di spazio di archiviazione sicuro</div> 
-                                    </li>
-                                <li>
-                                    <i class="fa-solid fa-share-nodes symbol-list"></i> 
-                                    <div class="line-list paragraph">Funzioni di produttività premium e condivisione file semplice e sicura</div> 
+                                <li class="list-line">
+                                    <i class="fa-solid fa-folder list-type"></i>
+                                    <p class="paragraph">5 TB di spazio di archiviazione sicuro</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-share-nodes list-type"></i>
+                                    <p class="paragraph">Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                </li>
+                            </ul>
+                            <a href="" class="button gratis">Prova gratis per 30 giorni</a>
+                            <p class="paragraph buy-now">oppure <a href="">acquista ora</a></p>
+                            <div class="short-hr"></div>
+                            <h6>Punti salienti del piano</h6>
+                            <ul>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-check checks"></i>
+                                    <p class="paragraph">Invia file fino a 100 GB con Dropbox Transfert</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-check checks"></i>
+                                    <p class="paragraph">Cartelle offline su dispositivi mobili</p>
                                 </li>
                             </ul>
                         </div>
-                        <div class="free-trial gratis">Prova gratis per 30 giorni</div>
-                        <div class="otherwise paragraph">oppure <a href="" class="buy-now">acquista ora</a></div>
                     </div>
-                    <div class="payment-col middle">
-                        <div class="who">
-                            <span class="paragraph"><i class="fa-solid fa-users"></i> Team</span>
+                    <!-- second card -->
+                    <div class="payment-cols middle-payment-col">
+                        <div class="col-header paragraph">
+                            <span>
+                                <i class="fa-solid fa-users"></i>
+                                Team
+                            </span>
+                        </div>
+                        <div class="payment-card-content">
+                            <h5>Advanced</h5>
+                            <div class="price paragraph">€ 18.00</div>
+                            <div class="period paragraph">/utente/mese</div>
+                            <ul>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-user list-type"></i>
+                                    <p class="paragraph">3 o più utenti</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-folder list-type"></i>
+                                    <p class="paragraph">Tutto lo spazio di cui ha bisogno il tuo team</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-share-nodes list-type"></i>
+                                    <p class="paragraph">Sofisticate funzioni di controlle e per tenere al sicuro tutti i file del tuo team</p>
+                                </li>
+                            </ul>
+                            <a href="" class="button gratis">Prova gratis per 30 giorni</a>
+                            <p class="paragraph buy-now">oppure <a href="">acquista ora</a></p>
+                            <div class="short-hr"></div>
+                            <h6>Punti salienti del piano</h6>
+                            <ul>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-check checks"></i>
+                                    <p class="paragraph">Nessun limite di spazio per i file</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-check checks"></i>
+                                    <p class="paragraph">Cartelle offline su dispositivi mobili</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-check checks"></i>
+                                    <p class="paragraph">Risparmio del 50% rispetto alle iscrizioni singole</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-check checks"></i>
+                                    <p class="paragraph">Possibilità di inserire nuovi membri nel team</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-check checks"></i>
+                                    <p class="paragraph">Gestione dei permessi in base ai ruoli</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="payment-col">
-                        <div class="who">
-                            <span class="paragraph"><i class="fa-solid fa-building"></i> Azienda</span>
+                    <!-- third card -->
+                    <div class="payment-cols">
+                        <div class="col-header paragraph">
+                            <span>
+                                <i class="fa-solid fa-building"></i>
+                                Enterprise
+                            </span>
                         </div>
-                    </div>
-               </div>
-                <div class="one-column-grid"></div>
+                        <div class="payment-card-content">
+                            <h5>Advanced</h5>
+                            <div class="price3 paragraph">Contattaci</div>
+                            <ul>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-user list-type"></i>
+                                    <p class="paragraph">10 o più utenti</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-folder list-type"></i>
+                                    <p class="paragraph">Soluzioni personalizzabili per la tua azienda</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-share-nodes list-type"></i>
+                                    <p class="paragraph">Assistnza personalizzata per aiutare gli amministratori in una gestione su larga scala</p>
+                                </li>
+                            </ul>
+                            <a href="" class="button gratis">Prova gratis per 30 giorni</a>
+                            <p class="paragraph buy-now">oppure <a href="">acquista ora</a></p>
+                            <div class="short-hr"></div>
+                            <h6>Punti salienti del piano</h6>
+                            <ul>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-check checks"></i>
+                                    <p class="paragraph">Cartelle offline su dispositivi mobili</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-check checks"></i>
+                                    <p class="paragraph">Servizio assistenza 24/h</p>
+                                </li>
+                                <li class="list-line">
+                                    <i class="fa-solid fa-check checks"></i>
+                                    <p class="paragraph">Possibilità di personalizzazione totale</p>
+                                </li>
+                </div>
             </div>
         </section>
 
@@ -121,7 +222,7 @@
                         <img src="img/partner.png" alt="Dropbox partner">
                     </div>
                     <div class="paragraph1">
-                        <h5>Entra in contatto con un partner Dropbox</h5>
+                        <h5 class="partner-title">Entra in contatto con un partner Dropbox</h5>
                         <p class="paragraph">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
                         <div class="button-white">Trova un partner</div>
                     </div>
