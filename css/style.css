@@ -275,28 +275,26 @@ ul.plans-list:last-child {
     border: 2px dashed black;
 }
 
-.business {
-    /* debug */
-    height: 1000px;
-    background-color: darkred;
-    border: 2px dashed black;
-}
-
 .grid {
     /* debug */
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
+}
+
+.business-title {
+    padding-bottom: 1 rem;
+}
+
+.business-cards {
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .col {
-    /* debug */
-    width: calc(100% / 3 - 30px);
-    margin: 10px;
-    height: 350px;
-    background-color: darksalmon;
-    border: 2px dashed black;
+    width: calc(100% / 3);
 }
 
 .users {
