@@ -14,6 +14,7 @@
     --clear-channel-color: #FFD830;
     --call-to-action-title: #642552;
     --button-color: #0061FF;
+    --footer-hr-language-color: #505050;
 }
 
 /* RESET */
@@ -431,26 +432,34 @@ footer {
 
 .footer-grid {
     display: flex;
+    justify-content: space-between;
 
     /* debug */
     padding: 50px 0;
 }
 
+h3 {
+    margin-bottom: 1.5rem;
+}
+
+ul.footer-menu li {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
 .columns {
     /* debug */
-    height: 250px;
-    background-color: pink;
-    margin-right: 10px;
     width: calc(100% / 5);
 }
 
+.small-hr {
+    border: 1px solid white;
+    height: 1px;
+    width: 7rem;
+    margin-bottom: 2rem;
+}
+
 .language {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    /* debug */
-    height: 1.2rem;
-    width: 70px;
-    background-color: burlywood;
-    padding: ;
+    color: var(--footer-hr-language-color);
+    font-size: 0.8rem;
 }
