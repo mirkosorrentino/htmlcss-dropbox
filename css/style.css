@@ -225,7 +225,7 @@ h1 {
 
 .payment-cols {
     border: 1px solid gray;
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 20px / 3);
     margin-bottom: 3rem;
 }
 
@@ -263,13 +263,6 @@ h1 {
     top: 14px;
 }
 
-.one-column-grid {
-    /* debug */
-    height: 250px;
-    background-color: yellow;
-    border: 2px dashed black;
-}
-
 .gratis {
     text-decoration: none;
     font-size: 0.8rem;
@@ -287,6 +280,12 @@ h1 {
 
 .short-hr {
     border: 1px solid black;
+    width: 1rem;
+    margin-bottom: 2rem;
+}
+
+.hr2 {
+    display: inline-block;
     width: 1rem;
     margin-bottom: 2rem;
 }
@@ -310,6 +309,25 @@ h6 {
     font-weight: 600;
 }
 
+
+/* one-column grid */
+.only-card {
+    border: 1px solid gray;
+}
+
+.only-column-content {
+    position: relative;
+    padding: 1.5rem 1rem;
+}
+
+.gratis2 {
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+/* partner section */
 .image {
     width: 60%;
 }
@@ -328,6 +346,12 @@ h6 {
     border: 1px solid black;
     margin-top: 1rem;
     font-size: 0.8rem;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.find-partner {
+    margin-top: 100px;
 }
 
 .grid {
@@ -515,9 +539,9 @@ ul.footer-menu li {
     width: calc(100% / 5);
 }
 
-.small-hr {
+.hr1 {
+    display: inline-block;
     border: 1px solid white;
-    height: 1px;
     width: 7rem;
     margin-bottom: 2rem;
 }
