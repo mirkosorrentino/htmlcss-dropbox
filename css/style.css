@@ -68,6 +68,10 @@ body {
     color: white;
 }
 
+.button:hover,.free-trial:hover {
+    background-color: #0093CE;
+}
+
 /* UTILITIES */
 
 h2 {
@@ -173,6 +177,7 @@ h1 {
     font-size: 2.2rem;
     margin-top: 3rem;
     margin-bottom: 1rem;
+    color: black;
 }
 
 
@@ -350,8 +355,18 @@ h6 {
     padding: 5px 10px;
 }
 
+.a-custom {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button-white:hover {
+    background-color: lightgray;
+}
+
 .find-partner {
     margin-top: 100px;
+    margin-bottom: 8rem;
 }
 
 .grid {
@@ -481,6 +496,11 @@ h6 {
     background-color: white;
     padding: 10px 20px;
 }
+
+.call-to-action-button:hover {
+    background-color: lightgray;
+}
+
 .faq {
     padding: 4rem 0;
 }
@@ -501,6 +521,19 @@ h6 {
     position: absolute;
     right: 30px;
     top: 40px;
+}
+
+.answer {
+    display: none;
+    margin-top: 2rem;
+}
+
+.question:hover .answer{
+    display: block;
+}
+
+.question:hover .angle-down {
+    transform: rotate(180deg);
 }
 
 /* FOOTER */
